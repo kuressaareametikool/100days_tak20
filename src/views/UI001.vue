@@ -1,9 +1,9 @@
 <template>
   <div class="home-content">
     <div class="card">
-      <h1>Sign up</h1>
+      <h1>Sign up!</h1>
       <p>Create your user here by providing your e-mail and a password</p>
-      <hr>
+      <hr />
       <form action="https://ametikool.ee">
         <div class="form-group">
           <label for="email">E-mail</label>
@@ -24,10 +24,11 @@
 </template>
 
 <style>
-* {
+*, *:before, *:after {
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -55,7 +56,7 @@ p {
 hr {
   border: 0;
   border-bottom: 1px solid #eee;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .card {
   width: 400px;
