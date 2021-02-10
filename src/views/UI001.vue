@@ -1,8 +1,28 @@
 <template>
   <div class="flex-center">
     <div class="home-content">
-      <h1>Siia tuleb esimene ülesanne (sign-up form)</h1>
-      <p>Challenge: Design Hint... Create a sign up page, modal, form, or app screen related to signing up for something. It could be for a volunteer event, contest registration, a giveaway, or anything you can image.</p>
+     <div class="card">
+      <h1>Sign up</h1>
+      <p>Create your user here by providing your e-mail and a password</p>
+      <hr>
+      <form action="https://ametikool.ee">
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input id="password" type="password" />
+        </div>
+        <div class="form-group">
+          <label for="password-repeat">Repeat password</label>
+          <input type="password" />
+        </div>
+        <button class="button" type="submit">Create user</button>
+      </form>
+    </div>
     </div>
   </div>
 </template>
+<style>
+</style>
