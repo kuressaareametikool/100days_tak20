@@ -48,11 +48,13 @@ html, body {
 h1 {
   margin: 0 0 0.5em 0;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 p {
   line-height: 1.4;
   margin-bottom: 1em;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 hr {
   border: 0;
@@ -81,6 +83,7 @@ hr {
   margin-bottom: 0.5em;
   font-size: 0.8em;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 .button {
   width: 100%;
@@ -91,6 +94,7 @@ hr {
   color: #fff;
   font-weight: bold;
   border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
 }
 body {
   background: linear-gradient(60deg, rgb(97, 0, 89), rgb(34, 0, 158));
