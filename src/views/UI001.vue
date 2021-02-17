@@ -23,7 +23,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -45,6 +45,12 @@ body {
   text-align: left;
   padding: 5em;
   height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(60deg, rgb(0, 102, 255), rgb(0, 153, 255));
 }
 h1 {
   margin: 0 0 0.5em 0;
@@ -96,8 +102,5 @@ hr {
 }
 .button:active {
   border: 3px solid #000;
-}
-body {
-  background: linear-gradient(60deg, rgb(0, 102, 255), rgb(0, 153, 255));
 }
 </style>

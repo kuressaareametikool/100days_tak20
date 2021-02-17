@@ -6,3 +6,10 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+  body {
+    background-color: #000;
+    background-image: none;
+  }
+</style>

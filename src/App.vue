@@ -20,5 +20,11 @@
 }
 .nav a {
   margin: 0.5rem;
+  z-index: 10;
+  position: relative;
+  color: white;
+}
+body {
+  background-color: #000;
 }
 </style>
