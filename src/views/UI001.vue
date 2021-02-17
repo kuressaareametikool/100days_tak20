@@ -4,7 +4,7 @@
       <h1>Sign up!</h1>
       <p>Create your user here by providing your e-mail and a password</p>
       <hr />
-      <form action="https://ametikool.ee">
+      <form action="#">
         <div class="form-group">
           <label for="email">E-mail</label>
           <input id="email" type="email" />
@@ -85,10 +85,17 @@ hr {
   padding: 1em;
   margin-top: 1em;
   background: linear-gradient(60deg, rgb(0, 102, 255), rgb(0, 153, 255));
-  border: none;
   color: #fff;
   font-weight: bold;
   border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid rgb(0, 153, 255);
+}
+.button:hover {
+  border: 3px solid rgb(0, 102, 255);
+}
+.button:active {
+  border: 3px solid #000;
 }
 body {
   background: linear-gradient(60deg, rgb(0, 102, 255), rgb(0, 153, 255));
