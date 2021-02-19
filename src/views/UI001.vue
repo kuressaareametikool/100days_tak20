@@ -24,35 +24,13 @@
 </template>
 
 <style scoped>
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-html,
-body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+/* scoped - määrab ära, et stiilid käivad ainult selle lehe/komponendi kohta */
+.home-content {
+  background: linear-gradient(60deg, rgb(0, 102, 255), rgb(0, 153, 255));
 }
 .nav a {
   color: #fff;
   text-decoration: none;
-}
-.home-content {
-  /* See on selleks, et muuta kogu lehe tausta */
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(60deg, rgb(0, 102, 255), rgb(0, 153, 255));
-  /* /See on selleks, et muuta kogu lehe tausta */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
-  padding: 5em;
-  height: 100%;
 }
 h1 {
   margin: 0 0 0.5em 0;
