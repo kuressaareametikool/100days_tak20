@@ -1,8 +1,32 @@
 <template>
-  <div class="flex-center">
-    <div class="home-content">
-      <h1>Siia tuleb teine ülesanne (omal valikul)</h1>
-      <p>Kogu list - https://gist.github.com/Pustur/3b2bee790d2c8a966136d76a9157d5e4</p>
+  <body>
+    <div>
+      <h1 class="font">ERROR 404</h1>
+      <h2 class="BLACK">PAGE NOT FOUND</h2>
     </div>
-  </div>
+  </body>
 </template>
+<style>
+html,
+body {
+  display: 100%;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.font {
+  font-size: 100px;
+  color: black;
+}
+.text {
+  margin: 0px;
+  color: black;
+  font-size: 30px;
+}
+.BLACK {
+  color: black;
+  font-size: 50px;
+}
+</style>
