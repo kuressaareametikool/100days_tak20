@@ -1,4 +1,16 @@
-# 100daysui
+# Ülesanne  
+### Luua 3 UI komponendi kujundus, kasutades html-i ja css-i ( vue sees, aga see pole määrav :) )  
+Hindamine:
+- 3 - Olemas 2 UI-komponenti (sign-up & 1 komponent omal valikul)
+- 4 - Olemas 3 UI-komponenti (sign-up & 2 komponenti omal valikul)
+- 5 - Olemas 3 UI-komponenti, millele loodud ka loetav, selge, personaliseeritud kujundus, paddingud, marginid & ühtne stiil. Tuleta meelde veebikujunduse tunde!
+
+Ressursid:
+- [Refactoring UI](https://drive.google.com/file/d/1xXhy5F-4QnuBOH0TTj8XlT53WuiD6XWV/view?usp=sharing) - jube hea veebikujunduse (e-)raamat
+- [Dribbble](https://dribbble.com/) - UI jm disaini-inspiratsioon
+- [CSS Tricks](https://css-tricks.com/) - CSS trikid
+
+## 100daysui
 
 100 days ui challenge - https://www.dailyui.co/. Liitu sellega ka :) Esimese ülesande saad kätte, kui endale projekti kloonid, dependencied installid ja kohalikus masinas käima lükkad.
 
