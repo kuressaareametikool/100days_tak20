@@ -3,7 +3,10 @@
 Hindamine:
 - 3 - Olemas 2 UI-komponenti (sign-up & 1 komponent omal valikul)
 - 4 - Olemas 3 UI-komponenti (sign-up & 2 komponenti omal valikul)
-- 5 - Olemas 3 UI-komponenti, millele loodud ka loetav, selge, personaliseeritud kujundus, paddingud, marginid & ühtne stiil. Tuleta meelde veebikujunduse tunde!
+- 5 - Olemas 3 UI-komponenti, millele loodud ka loetav, selge, personaliseeritud kujundus, paddingud, marginid & ühtne stiil (tuleta meelde veebikujunduse tunde!). Netlify-s üleval. 
+
+Tähtaeg:
+## 03.03.2021
 
 Ressursid:
 - [Refactoring UI](https://drive.google.com/file/d/1xXhy5F-4QnuBOH0TTj8XlT53WuiD6XWV/view?usp=sharing) - jube hea veebikujunduse (e-)raamat
