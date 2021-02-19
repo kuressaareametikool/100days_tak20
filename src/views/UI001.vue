@@ -24,6 +24,7 @@
 </template>
 
 <style>
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 * {
@@ -96,6 +97,7 @@ hr {
 .button:hover {
     box-shadow: 10px 10px 5px rgba(150,48,67,2);
     background: linear-gradient(90deg, rgba(228,48,67,1) 46%, rgba(227,75,178,1) 100%);
+  cursor: pointer;
 }
 body {
   background: radial-gradient(circle, rgba(184,79,159,1) 12%, rgba(208,12,43,1) 100%, rgba(215,144,201,1) 100%);
