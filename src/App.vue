@@ -20,11 +20,12 @@
 }
 .nav a {
   margin: 0.5rem;
+  /* selleks, et nav oleks näha, kui on komponendile lisatud erinev taust */
   z-index: 10;
   position: relative;
   color: white;
 }
 body {
-  background-color: #000;
+  background-color: rgb(107, 107, 107);
 }
 </style>

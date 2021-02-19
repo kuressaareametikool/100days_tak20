@@ -38,6 +38,14 @@ body {
   text-decoration: none;
 }
 .home-content {
+  /* See on selleks, et muuta kogu lehe tausta */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(60deg, rgb(0, 102, 255), rgb(0, 153, 255));
+  /* /See on selleks, et muuta kogu lehe tausta */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,12 +53,6 @@ body {
   text-align: left;
   padding: 5em;
   height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(60deg, rgb(0, 102, 255), rgb(0, 153, 255));
 }
 h1 {
   margin: 0 0 0.5em 0;
