@@ -8,13 +8,9 @@
   <router-view />
 </template>
 
-
 <style>
 /* Need stiilid käivad üldiselt kogu web-appi kohta! */
 .home-content {
-  position: absolute;
-  left: 0;
-  right: 0;
   top: 0;
   bottom: 0;
   display: flex;
@@ -31,16 +27,23 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+  margin: 0;
+  flex: 1;
 }
 html,
 body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
 }
 .nav a {
   margin: 0.5rem;
@@ -58,7 +61,7 @@ nav.nav {
   left: 3rem;
   bottom: 3rem;
   opacity: 0.3;
-  transition: opacity .2s ease;
+  transition: opacity 0.2s ease;
   font-size: 0.8rem;
 }
 nav.nav:hover {
