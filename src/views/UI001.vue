@@ -44,13 +44,7 @@ hr {
   border-bottom: 1px solid #eee;
   margin-bottom: 2rem;
 }
-.card {
-  width: 400px;
-  padding: 3em 2em;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  background-color: #fff;
-}
+
 .form-group {
   margin-bottom: 1em;
 }

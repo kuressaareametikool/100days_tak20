@@ -45,8 +45,30 @@ body {
 .nav a {
   margin: 0.5rem;
   /* selleks, et nav oleks näha, kui on komponendile lisatud erinev taust */
+}
+nav.nav {
   z-index: 10;
-  position: relative;
-  color: white;
+  position: absolute;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  left: 3rem;
+  bottom: 3rem;
+  opacity: 0.3;
+  transition: opacity .2s ease;
+  font-size: 0.8rem;
+}
+nav.nav:hover {
+  opacity: 1;
+}
+.card {
+  width: 400px;
+  padding: 3em 2em;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #fff;
 }
 </style>

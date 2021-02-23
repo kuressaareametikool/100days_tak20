@@ -6,3 +6,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.home-content {
+  background: linear-gradient(60deg, rgb(30, 248, 1), rgb(0, 217, 255));
+}
+</style>
