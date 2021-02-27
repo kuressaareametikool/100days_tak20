@@ -1,11 +1,4 @@
 <template>
-  <div class="FULLSNEK">
-    <div class="snek"></div>
-    <div class="snek"></div>
-    <div class="snek"></div>
-    <div class="snek"></div>
-    <div class="snek"></div>
-  </div>
   <div class="flex-center">
     <div class="home-content"></div>
     <div class="all">
@@ -18,9 +11,7 @@
 .error {
   color: white;
   font-size: 150px;
-  animation-name: RGBGOOD;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation: RGBGOOD 4s infinite linear;
 }
 .all {
   display: flex;
@@ -32,56 +23,24 @@
   color: white;
   font-size: 50px;
 }
-.snek {
-  background: white;
-  height: 50px;
-  width: 50px;
-}
 
 @keyframes RGBGOOD {
   0% {
+    transform: rotateY(0deg);
+
     color: red;
   }
   25% {
     color: yellow;
+    transform: rotateY(120deg);
   }
   50% {
     color: blue;
+    transform: rotateY(240deg);
   }
   100% {
     color: green;
-  }
-}
-.FULLSNEK {
-  position: absolute;
-  animation-name: SNEKAN;
-  animation: SNEKAN 4s linear infinite;
-}
-@keyframes SNEKAN {
-  0% {
-    background-color: red;
-    left: 0px;
-    top: 0px;
-  }
-  25% {
-    background-color: yellow;
-    right: 0px;
-    top: 0px;
-  }
-  50% {
-    background-color: blue;
-    left: 200px;
-    top: 200px;
-  }
-  75% {
-    background-color: green;
-    left: 0px;
-    top: 200px;
-  }
-  100% {
-    background-color: red;
-    left: 0px;
-    top: 0px;
+    transform: rotateY(360deg);
   }
 }
 </style>
