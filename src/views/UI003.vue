@@ -20,6 +20,9 @@ html {
 .loading_container {
   height: 20px;
   width: 1000px;
+  background-color: darkgrey;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .loadingBar {
   height: 20px;
