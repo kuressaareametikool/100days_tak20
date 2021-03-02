@@ -1,5 +1,10 @@
 <template>
-  <div class="flex-center">
+  <div class="all">
+    <div class="gear_container">
+      <img class="gear1" src="gear.png" alt="" />
+      <img class="gear2" src="gear.png" alt="" />
+    </div>
+    <span class="loading"> LOADING... </span>
     <div class="loading_container">
       <div class="loadingBar"></div>
     </div>
@@ -13,16 +18,19 @@ html {
   width: 100%;
   margin: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
+.all {
+  display: flex;
+}
 .loading_container {
   height: 20px;
   width: 1000px;
   background-color: darkgrey;
   border-radius: 10px;
+  position: absolute;
+  bottom: 5%;
   overflow: hidden;
+  box-shadow: 2px 2px 2px black, 2px 2px 2px white;
 }
 .loadingBar {
   height: 20px;
@@ -36,5 +44,39 @@ html {
   100% {
     width: 1000px;
   }
+}
+.gear1 {
+  height: 256px;
+  width: 256px;
+  position: absolute;
+  left: 35%;
+  bottom: 25%;
+  animation: spin 2s infinite linear;
+}
+.gear2 {
+  height: 256px;
+  width: 256px;
+  position: absolute;
+  left: 47%;
+  bottom: 25%;
+  animation: spin 1.99s infinite linear reverse;
+}
+.gear_container {
+  width: 512px;
+  height: 256px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  font-size: 125px;
+  color: white;
+  position: absolute;
+  bottom: 10%;
 }
 </style>
