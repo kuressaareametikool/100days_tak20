@@ -1,8 +1,8 @@
 <template>
   <div class="all">
     <div class="gear_container">
-      <img class="gear1" src="gear.png" alt="" />
-      <img class="gear2" src="gear.png" alt="" />
+      <img class="gear1" src="../gear.png" alt="" />
+      <img class="gear2" src="../gear.png" alt="" />
     </div>
     <span class="loading"> LOADING... </span>
     <div class="loading_container">
