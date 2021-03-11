@@ -49,22 +49,21 @@ html {
   height: 256px;
   width: 256px;
   position: absolute;
-  left: 35%;
-  bottom: 25%;
+  left: 0;
   animation: spin 2s infinite linear;
 }
 .gear2 {
   height: 256px;
   width: 256px;
   position: absolute;
-  left: 47%;
-  bottom: 25%;
+  right: 0;
 
   animation: spin 2s infinite linear reverse;
 }
 .gear_container {
   width: 512px;
   height: 256px;
+  position: relative;
 }
 @keyframes spin {
   0% {
