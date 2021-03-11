@@ -59,7 +59,8 @@ html {
   position: absolute;
   left: 47%;
   bottom: 25%;
-  animation: spin 1.99s infinite linear reverse;
+
+  animation: spin 2s infinite linear reverse;
 }
 .gear_container {
   width: 512px;
