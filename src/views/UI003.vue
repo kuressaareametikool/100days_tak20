@@ -27,10 +27,10 @@ html {
   width: 1000px;
   background-color: darkgrey;
   border-radius: 10px;
-  position: absolute;
+  /* position: absolute; */
   bottom: 5%;
   overflow: hidden;
-  box-shadow: 2px 2px 2px black, 2px 2px 2px white;
+  /* box-shadow: 2px 2px 2px black, 2px 2px 2px white; */
 }
 .loadingBar {
   height: 20px;
@@ -76,7 +76,7 @@ html {
 .loading {
   font-size: 125px;
   color: white;
-  position: absolute;
+  /* position: absolute; */
   bottom: 10%;
 }
 </style>
