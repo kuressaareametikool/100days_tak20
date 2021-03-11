@@ -1,32 +1,44 @@
 <template>
-  <body>
-    <div>
-      <h1 class="font">ERROR 404</h1>
-      <h2 class="BLACK">PAGE NOT FOUND</h2>
-    </div>
-  </body>
+  <html>
+    <head>
+      <title>Simple 404 Error Page Design</title>
+      <link rel="stylesheet" />
+    </head>
+    <body>
+      <div class="container">
+        <h1>ERROR 404</h1>
+        <h2>Page Not Found</h2>
+        <p>
+          if you have any problems click
+          <a href="https://ametikool.ee">here.</a>
+        </p>
+      </div>
+    </body>
+  </html>
 </template>
 <style>
-html,
-body {
-  display: 100%;
-  padding: 0px;
-  margin: 0px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+h1 {
+  font-size: 75px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
-.font {
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: -40px;
+}
+p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+.container {
   font-size: 100px;
-  color: black;
-}
-.text {
-  margin: 0px;
-  color: black;
-  font-size: 30px;
-}
-.BLACK {
-  color: black;
-  font-size: 50px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 15%;
 }
 </style>
