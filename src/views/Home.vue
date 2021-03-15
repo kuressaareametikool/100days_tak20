@@ -1,7 +1,10 @@
 <template>
-  <h1>Sissejuhatus</h1>
+<h1>  </h1>
+  <h1>
+  Greetings fellow test subject, I MEAN HUMAN!</h1>
   <p>
-    Siin on siuke leht/web-app/asi, kuhu tulevad teie Madise tunni UI ülesanded. Esimene ül
-    tuleb faili <code>views/UI001</code>, teine <code>views/UI002</code> jne. 
-  </p>
+   Greetings fellow human! This is the work of Macuway.</p>
+   <p> </p>
+  <p>The human that talks about cats :3</p>
+  <p>You shall not blaspherme about cats!</p>
 </template>

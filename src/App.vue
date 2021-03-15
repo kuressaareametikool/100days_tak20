@@ -2,7 +2,7 @@
   <nav class="nav" id="nav">
     <router-link to="/">Introduction</router-link>
     <router-link to="/UI001">Sign up</router-link>
-    <router-link to="/UI002">OwO</router-link>
+    <router-link to="/UI002">404 Error</router-link>
     <router-link to="/UI003">Cat</router-link>
   </nav>
   <router-view />
