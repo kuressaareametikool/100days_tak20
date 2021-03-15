@@ -3,7 +3,7 @@
     <router-link to="/">Introduction</router-link>
     <router-link to="/UI001">Sign up</router-link>
     <router-link to="/UI002">404 Error</router-link>
-    <router-link to="/UI003">Cat</router-link>
+    <router-link to="/UI003">Music Player UwU</router-link>
   </nav>
   <router-view />
 </template>
